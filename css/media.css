@@ -1,0 +1,281 @@
+@media (min-width:0px) and (max-width:991px){
+    .navbar-nav{
+      text-align: center;
+    }
+    .nav-link {
+      display: inline-block;
+    }
+    .navbar-light .navbar-nav .nav-link {
+      margin-right: 0px;
+      margin-left:0px;
+    
+  }
+  .navbar-light .navbar-brand {
+    width: 40%;
+  }
+  .navbar-light .navbar-toggler {
+        box-shadow: none;
+        background-color: #f39c12;
+        padding: 6px 11px;
+        z-index: 999999 !important;
+  }
+  .header-content span{
+      font-size:40px;
+      text-align: center;
+  }
+  .header-content h1{
+      font-size:45px;
+      text-align: center;
+  }
+  .header-content p{
+      font-size:20px;
+      text-align: center;
+  }
+
+  .progress-title h3{
+      font-size:15px;
+  }
+  .work{
+    padding-bottom: 100px;
+    }
+
+    .work-button{
+
+        padding: 80px 0;
+        
+        align-items: center;
+        
+        }
+            .work-button ul{
+        
+        display: flex;
+        
+        justify-content: space-between;
+        
+        list-style: none;
+        
+        }
+            .work-button ul li{
+                
+            }
+            .work-button ul li button{
+                background: none;
+                border: none;
+                color: #565656;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 900;
+                padding: 5px 15px;
+                transition: .4s all ease-in-out;
+                text-transform: capitalize;
+                font-size: 10px;
+              }
+              .work-button ul li button:hover{
+                background: #f39c12;
+                color: #fff;
+              }
+              .work-icon i{
+                  font-size: 15px;
+              }
+ 
+              .interest{
+                padding-bottom:100px;
+                
+            
+            }
+            
+            .interest h2{
+                text-transform: uppercase;
+                color: black;
+                font-family: 'Raleway', sans-serif;
+                text-align: center;
+                margin-top: -30px;
+                font-weight: bold;
+            
+            }
+            .interest span{
+                background: #f39c12;
+                display: block;
+                height: 2px;
+                width: 35%;
+                margin: auto;
+                position:relative;
+            
+            }
+            .interest span::before{
+                content:'';
+                position:absolute;
+                left:50%;
+                transform:translate(-50%, -50%);
+                height:5px;
+                width:30px;
+                top:50%;
+                background-color:#f39c12;
+                animation:ani 5s linear infinite;
+                animation-direction: alternate;
+            }
+            @keyframes ani{
+                0%{
+                    left:50%;
+                }
+                25%{
+                    left:60%;
+                }
+                50%{
+                    left:50%;
+                }
+                75%{
+                    left:40%;
+                }
+                100%{
+                    left:0%;
+                }
+            }
+            
+            .interest-section{
+                display: flex;
+                width: 90%;
+                /* margin-right:10%; */
+                /* margin-left: 10%; */
+                padding-top: 50px;
+                padding-bottom: 50px;
+                justify-content: space-between;
+                margin: 0 10px;
+            }
+            .my-interest {
+                width: 15%;
+                text-align: center;
+            }
+            .my-interest-content{
+                
+            width: 30px;
+            }
+            .interest-icon{
+                height: 50px;
+                width: 50px;
+                background: black;
+                color: #fff;
+                line-height: 50px;
+                margin: auto;
+                font-size: 15px;
+                margin-bottom: 25px;
+                border-radius:5px;
+                transition:.4s all ease-in-out;
+            }
+            .interest-icon:hover{
+                color:#f39c12;
+            }
+            .interest-icon i{
+                
+            }
+            
+            .interest h5{
+                font-size: 9px;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 700;
+                text-transform: uppercase;
+                transition: .4s all ease-in-out;
+                text-align: center;
+            }
+            .interest h5:hover{
+                color:#f39c12;
+            }
+        .my-contact {
+            width: 30%;
+            text-align: center;
+        }
+        .contact-icon{
+            height: 50px;
+            width: 50px;
+            background:black;
+            line-height: 50px;
+            margin: auto;
+            font-size: 20px;
+            margin-bottom: 20px;
+            border-radius:50px;
+        }
+        .contact-icon i{
+            color:#fff;
+            transition:.4s all ease-in-out;
+        }
+        .contact-icon i:hover{
+            color:#f39c12;
+        }
+        .ftext p{
+            font-size:11px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  }
+  @media (min-width:0px) and (max-width:767px){
+    
+    
+  
+  
+  
+    
+
+  }
+  @media (min-width:0px) and (max-width:320px){
+    
+   }
+   @media (max-width:320px){
+    
+   }
+  
+  
+   @media (min-width:321px) and (max-width:375px){
+   
+  
+   }
+   @media (min-width:376px) and (max-width:425px){
+  
+   }
+   
+   @media (min-width:426px) and (max-width:768px){
+    
+    
+  }
+  @media (min-width:789px) and (max-width:1024px){
+    
+  }
+  @media (min-width:1440px){
+   
+  }
